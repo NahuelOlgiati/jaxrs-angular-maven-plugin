@@ -3,7 +3,7 @@
 This maven plugin is a tool that generate models and services between a java jax-rs project and a typescript angular project.
 
 ## Use example
-`
+```xml
 <plugin>
 	<groupId>com.primus</groupId>
 	<artifactId>jaxrs-angular-maven-plugin</artifactId>
@@ -38,4 +38,4 @@ This maven plugin is a tool that generate models and services between a java jax
 		</execution>
 	</executions>
 </plugin>
-`
+```
