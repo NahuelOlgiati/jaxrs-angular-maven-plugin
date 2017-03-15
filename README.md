@@ -41,7 +41,7 @@ This maven plugin is a tool that generate models and services between a java jax
 ```
 
 ## Result example
-``` java
+``` typescript
 import { NgModule, Injectable } from '@angular/core';
 import { Headers, Http, RequestOptions } from '@angular/http';
 import { Observable } from 'rxjs/Rx';
