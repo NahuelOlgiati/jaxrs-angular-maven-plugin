@@ -38,11 +38,11 @@
 
 	<distributionManagement>
 		<snapshotRepository>
-			<id>nahuelolgiati@hotmail.com</id>
+			<id>ossrh-jaxrs-angular@nahueolgiati.com</id>
 			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
 		</snapshotRepository>
 		<repository>
-			<id>nahuelolgiati@hotmail.com</id>
+			<id>ossrh-jaxrs-angular@nahueolgiati.com</id>
 			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 		</repository>
 	</distributionManagement>
