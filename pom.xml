@@ -36,6 +36,17 @@
 		<url>https://github.com/NahuelOlgiati/jaxrs-angular-maven-plugin</url>
 	</scm>
 
+	<distributionManagement>
+		<snapshotRepository>
+			<id>nahuelolgiati@hotmail.com</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>nahuelolgiati@hotmail.com</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
+	</distributionManagement>
+
 	<!-- Properties -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
