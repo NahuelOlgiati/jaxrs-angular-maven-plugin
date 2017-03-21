@@ -6,7 +6,7 @@
 
 	<!-- Main -->
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.primus</groupId>
+	<groupId>com.github.nahuelolgiati</groupId>
 	<artifactId>jaxrs-angular-maven-plugin</artifactId>
 	<version>01.00.00</version>
 	<packaging>maven-plugin</packaging>

@@ -1,5 +1,5 @@
 
-package com.primus;
+package com.github.nahuelolgiati;
 
 import java.io.*;
 import java.nio.charset.*;

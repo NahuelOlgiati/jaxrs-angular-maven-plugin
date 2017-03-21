@@ -1,9 +1,9 @@
 
-package com.primus.emitter;
+package com.github.nahuelolgiati.emitter;
 
 import java.util.*;
-import com.primus.TsType;
-import com.primus.compiler.Symbol;
+import com.github.nahuelolgiati.TsType;
+import com.github.nahuelolgiati.compiler.Symbol;
 
 public class TsAliasModel extends TsDeclarationModel
 {

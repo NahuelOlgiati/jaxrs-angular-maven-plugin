@@ -1,13 +1,13 @@
 
-package com.primus.compiler;
+package com.github.nahuelolgiati.compiler;
 
 import java.util.*;
 import javax.script.Invocable;
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
-import com.primus.Settings;
-import com.primus.util.Pair;
+import com.github.nahuelolgiati.Settings;
+import com.github.nahuelolgiati.util.Pair;
 
 public class SymbolTable
 {

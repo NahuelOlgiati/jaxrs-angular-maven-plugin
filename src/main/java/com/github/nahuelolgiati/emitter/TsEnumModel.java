@@ -1,11 +1,11 @@
 
-package com.primus.emitter;
+package com.github.nahuelolgiati.emitter;
 
 import java.util.List;
-import com.primus.compiler.EnumKind;
-import com.primus.compiler.EnumMemberModel;
-import com.primus.compiler.Symbol;
-import com.primus.parser.EnumModel;
+import com.github.nahuelolgiati.compiler.EnumKind;
+import com.github.nahuelolgiati.compiler.EnumMemberModel;
+import com.github.nahuelolgiati.compiler.Symbol;
+import com.github.nahuelolgiati.parser.EnumModel;
 
 // T extends String | Number
 public class TsEnumModel<T> extends TsDeclarationModel

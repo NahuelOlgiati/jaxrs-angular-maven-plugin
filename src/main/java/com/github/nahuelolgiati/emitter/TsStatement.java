@@ -1,5 +1,5 @@
 
-package com.primus.emitter;
+package com.github.nahuelolgiati.emitter;
 
 public abstract class TsStatement
 {

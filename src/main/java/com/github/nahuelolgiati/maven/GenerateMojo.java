@@ -1,5 +1,5 @@
 
-package com.primus.maven;
+package com.github.nahuelolgiati.maven;
 
 import java.io.*;
 import java.net.*;
@@ -8,8 +8,8 @@ import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoFailureException;
 import org.apache.maven.plugins.annotations.*;
 import org.apache.maven.project.MavenProject;
-import com.primus.*;
-import com.primus.util.ClassLoaderUtils;
+import com.github.nahuelolgiati.*;
+import com.github.nahuelolgiati.util.ClassLoaderUtils;
 
 /**
  * Generates TypeScript declaration file from specified java classes. For more information see README and Wiki on GitHub.
@@ -205,7 +205,7 @@ public class GenerateMojo extends AbstractMojo
 	private boolean disableTaggedUnions;
 
 	/**
-	 * Specifies custom class implementing {@link com.primus.TypeProcessor}. This allows to customize how Java types
+	 * Specifies custom class implementing {@link com.github.nahuelolgiati.TypeProcessor}. This allows to customize how Java types
 	 * are mapped to TypeScript. For example it is possible to implement TypeProcessor for {@link com.google.common.base.Optional} from
 	 * guava or for Java 8 date/time classes.
 	 */

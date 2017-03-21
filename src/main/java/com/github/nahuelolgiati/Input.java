@@ -1,5 +1,5 @@
 
-package com.primus;
+package com.github.nahuelolgiati;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
@@ -9,8 +9,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import com.primus.parser.SourceType;
-import com.primus.util.Predicate;
+import com.github.nahuelolgiati.parser.SourceType;
+import com.github.nahuelolgiati.util.Predicate;
 import io.github.lukehutch.fastclasspathscanner.FastClasspathScanner;
 import io.github.lukehutch.fastclasspathscanner.scanner.ScanResult;
 

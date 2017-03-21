@@ -1,13 +1,13 @@
 
-package com.primus.parser;
+package com.github.nahuelolgiati.parser;
 
 import java.lang.reflect.Member;
 import java.lang.reflect.Type;
 import java.util.*;
-import com.primus.*;
-import com.primus.compiler.EnumKind;
-import com.primus.compiler.EnumMemberModel;
-import com.primus.compiler.SymbolTable;
+import com.github.nahuelolgiati.*;
+import com.github.nahuelolgiati.compiler.EnumKind;
+import com.github.nahuelolgiati.compiler.EnumMemberModel;
+import com.github.nahuelolgiati.compiler.SymbolTable;
 
 public abstract class ModelParser
 {

@@ -1,5 +1,5 @@
 
-package com.primus.compiler;
+package com.github.nahuelolgiati.compiler;
 
 public final class EnumKind<T>
 {

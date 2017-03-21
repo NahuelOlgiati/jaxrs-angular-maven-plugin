@@ -1,4 +1,4 @@
-package com.primus.util;
+package com.github.nahuelolgiati.util;
 
 import static java.lang.Thread.currentThread;
 import static java.util.stream.Collectors.toList;

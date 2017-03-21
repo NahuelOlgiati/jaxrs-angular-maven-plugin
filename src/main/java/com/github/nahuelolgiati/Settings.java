@@ -1,5 +1,5 @@
 
-package com.primus;
+package com.github.nahuelolgiati;
 
 import java.lang.annotation.Annotation;
 import java.util.ArrayList;
@@ -10,8 +10,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.regex.Pattern;
-import com.primus.emitter.Emitter;
-import com.primus.util.Predicate;
+import com.github.nahuelolgiati.emitter.Emitter;
+import com.github.nahuelolgiati.util.Predicate;
 
 public class Settings
 {

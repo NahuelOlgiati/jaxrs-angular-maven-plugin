@@ -1,5 +1,5 @@
 
-package com.primus.util;
+package com.github.nahuelolgiati.util;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.util.DefaultIndenter;

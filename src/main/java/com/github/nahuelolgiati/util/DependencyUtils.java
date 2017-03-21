@@ -1,4 +1,4 @@
-package com.primus.util;
+package com.github.nahuelolgiati.util;
 
 import java.io.File;
 import org.apache.maven.artifact.Artifact;

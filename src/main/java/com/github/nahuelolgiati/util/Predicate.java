@@ -1,5 +1,5 @@
 
-package com.primus.util;
+package com.github.nahuelolgiati.util;
 
 public interface Predicate<T>
 {

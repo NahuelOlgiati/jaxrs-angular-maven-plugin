@@ -1,7 +1,7 @@
 
-package com.primus;
+package com.github.nahuelolgiati;
 
-import com.primus.emitter.Emitter;
+import com.github.nahuelolgiati.emitter.Emitter;
 
 public class TsProperty
 {

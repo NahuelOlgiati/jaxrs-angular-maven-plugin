@@ -1,8 +1,8 @@
 
-package com.primus.emitter;
+package com.github.nahuelolgiati.emitter;
 
 import java.util.*;
-import com.primus.compiler.Symbol;
+import com.github.nahuelolgiati.compiler.Symbol;
 
 public class TsDeclarationModel implements Comparable<TsDeclarationModel>
 {

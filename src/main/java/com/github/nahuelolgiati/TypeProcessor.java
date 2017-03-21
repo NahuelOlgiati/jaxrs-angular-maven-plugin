@@ -1,10 +1,10 @@
 
-package com.primus;
+package com.github.nahuelolgiati;
 
 import java.lang.reflect.Type;
 import java.util.*;
-import com.primus.compiler.Symbol;
-import com.primus.compiler.SymbolTable;
+import com.github.nahuelolgiati.compiler.Symbol;
+import com.github.nahuelolgiati.compiler.SymbolTable;
 
 public interface TypeProcessor
 {

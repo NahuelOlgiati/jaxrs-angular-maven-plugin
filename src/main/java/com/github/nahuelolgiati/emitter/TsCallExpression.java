@@ -1,11 +1,11 @@
 
-package com.primus.emitter;
+package com.github.nahuelolgiati.emitter;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import com.primus.Settings;
-import com.primus.util.Utils;
+import com.github.nahuelolgiati.Settings;
+import com.github.nahuelolgiati.util.Utils;
 
 public class TsCallExpression extends TsExpression
 {

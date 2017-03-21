@@ -1,5 +1,5 @@
 
-package com.primus.parser;
+package com.github.nahuelolgiati.parser;
 
 import java.lang.reflect.Member;
 import java.lang.reflect.Type;

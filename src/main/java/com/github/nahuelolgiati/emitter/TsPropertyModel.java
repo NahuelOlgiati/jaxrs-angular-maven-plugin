@@ -1,9 +1,9 @@
 
-package com.primus.emitter;
+package com.github.nahuelolgiati.emitter;
 
 import java.util.List;
-import com.primus.TsProperty;
-import com.primus.TsType;
+import com.github.nahuelolgiati.TsProperty;
+import com.github.nahuelolgiati.TsType;
 
 public class TsPropertyModel extends TsProperty implements Comparable<TsProperty>
 {

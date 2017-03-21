@@ -1,5 +1,5 @@
 
-package com.primus;
+package com.github.nahuelolgiati;
 
 public enum ClassMapping
 {

@@ -1,9 +1,9 @@
 
-package com.primus;
+package com.github.nahuelolgiati;
 
 import java.lang.reflect.Type;
 import java.util.*;
-import com.primus.util.Utils;
+import com.github.nahuelolgiati.util.Utils;
 
 public class CustomMappingTypeProcessor implements TypeProcessor
 {

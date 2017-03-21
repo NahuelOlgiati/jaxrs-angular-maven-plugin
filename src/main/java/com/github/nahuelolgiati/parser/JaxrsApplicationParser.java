@@ -1,5 +1,5 @@
 
-package com.primus.parser;
+package com.github.nahuelolgiati.parser;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
@@ -24,9 +24,9 @@ import javax.ws.rs.core.GenericEntity;
 import javax.ws.rs.core.MultivaluedMap;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.StreamingOutput;
-import com.primus.JaxrsApplicationScanner;
-import com.primus.util.Predicate;
-import com.primus.util.Utils;
+import com.github.nahuelolgiati.JaxrsApplicationScanner;
+import com.github.nahuelolgiati.util.Predicate;
+import com.github.nahuelolgiati.util.Utils;
 
 public class JaxrsApplicationParser
 {

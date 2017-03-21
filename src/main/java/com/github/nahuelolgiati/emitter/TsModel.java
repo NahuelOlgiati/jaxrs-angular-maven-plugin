@@ -1,8 +1,8 @@
 
-package com.primus.emitter;
+package com.github.nahuelolgiati.emitter;
 
 import java.util.*;
-import com.primus.compiler.EnumKind;
+import com.github.nahuelolgiati.compiler.EnumKind;
 
 public class TsModel
 {

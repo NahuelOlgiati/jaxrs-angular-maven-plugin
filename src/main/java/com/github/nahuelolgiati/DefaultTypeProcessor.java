@@ -1,11 +1,11 @@
 
-package com.primus;
+package com.github.nahuelolgiati;
 
 import java.lang.reflect.*;
 import java.math.*;
 import java.util.*;
-import com.primus.parser.JaxrsApplicationParser;
-import com.primus.util.Utils;
+import com.github.nahuelolgiati.parser.JaxrsApplicationParser;
+import com.github.nahuelolgiati.util.Utils;
 
 public class DefaultTypeProcessor implements TypeProcessor
 {

@@ -1,10 +1,10 @@
 
-package com.primus.emitter;
+package com.github.nahuelolgiati.emitter;
 
 import java.util.*;
-import com.primus.*;
-import com.primus.compiler.Symbol;
-import com.primus.util.Utils;
+import com.github.nahuelolgiati.*;
+import com.github.nahuelolgiati.compiler.Symbol;
+import com.github.nahuelolgiati.util.Utils;
 
 public class TsBeanModel extends TsDeclarationModel
 {

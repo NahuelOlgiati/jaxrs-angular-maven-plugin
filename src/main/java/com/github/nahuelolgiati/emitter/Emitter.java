@@ -1,12 +1,12 @@
 
-package com.primus.emitter;
+package com.github.nahuelolgiati.emitter;
 
 import java.io.*;
 import java.util.*;
-import com.primus.*;
-import com.primus.compiler.EnumKind;
-import com.primus.compiler.EnumMemberModel;
-import com.primus.util.Utils;
+import com.github.nahuelolgiati.*;
+import com.github.nahuelolgiati.compiler.EnumKind;
+import com.github.nahuelolgiati.compiler.EnumMemberModel;
+import com.github.nahuelolgiati.util.Utils;
 
 public class Emitter
 {

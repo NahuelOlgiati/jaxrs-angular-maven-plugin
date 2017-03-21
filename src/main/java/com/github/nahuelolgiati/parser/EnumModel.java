@@ -1,9 +1,9 @@
 
-package com.primus.parser;
+package com.github.nahuelolgiati.parser;
 
 import java.util.*;
-import com.primus.compiler.EnumKind;
-import com.primus.compiler.EnumMemberModel;
+import com.github.nahuelolgiati.compiler.EnumKind;
+import com.github.nahuelolgiati.compiler.EnumMemberModel;
 
 // T extends String | Number
 public class EnumModel<T> extends DeclarationModel

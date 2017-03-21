@@ -1,17 +1,17 @@
 
-package com.primus;
+package com.github.nahuelolgiati;
 
 import java.io.InputStream;
 import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
-import com.primus.compiler.ModelCompiler;
-import com.primus.emitter.Emitter;
-import com.primus.emitter.TsModel;
-import com.primus.parser.JaxbParser;
-import com.primus.parser.Model;
-import com.primus.parser.ModelParser;
+import com.github.nahuelolgiati.compiler.ModelCompiler;
+import com.github.nahuelolgiati.emitter.Emitter;
+import com.github.nahuelolgiati.emitter.TsModel;
+import com.github.nahuelolgiati.parser.JaxbParser;
+import com.github.nahuelolgiati.parser.Model;
+import com.github.nahuelolgiati.parser.ModelParser;
 
 public class TypeScriptGenerator
 {

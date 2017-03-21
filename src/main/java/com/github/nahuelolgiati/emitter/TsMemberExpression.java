@@ -1,7 +1,7 @@
 
-package com.primus.emitter;
+package com.github.nahuelolgiati.emitter;
 
-import com.primus.Settings;
+import com.github.nahuelolgiati.Settings;
 
 public class TsMemberExpression extends TsExpression
 {

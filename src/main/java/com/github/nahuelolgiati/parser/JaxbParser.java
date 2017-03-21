@@ -1,5 +1,5 @@
 
-package com.primus.parser;
+package com.github.nahuelolgiati.parser;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -11,10 +11,10 @@ import com.fasterxml.jackson.annotation.JsonValue;
 import com.fasterxml.jackson.databind.*;
 import com.fasterxml.jackson.databind.ser.*;
 import com.fasterxml.jackson.module.jaxb.JaxbAnnotationIntrospector;
-import com.primus.*;
-import com.primus.compiler.EnumKind;
-import com.primus.compiler.EnumMemberModel;
-import com.primus.util.Predicate;
+import com.github.nahuelolgiati.*;
+import com.github.nahuelolgiati.compiler.EnumKind;
+import com.github.nahuelolgiati.compiler.EnumMemberModel;
+import com.github.nahuelolgiati.util.Predicate;
 import java.beans.BeanInfo;
 import java.beans.Introspector;
 import java.beans.PropertyDescriptor;

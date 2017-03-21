@@ -1,9 +1,9 @@
 
-package com.primus;
+package com.github.nahuelolgiati;
 
 import java.util.*;
-import com.primus.compiler.Symbol;
-import com.primus.util.Utils;
+import com.github.nahuelolgiati.compiler.Symbol;
+import com.github.nahuelolgiati.util.Utils;
 
 /**
  * Represents TypeScript type. That means something which can appear in type position (after ":" character).

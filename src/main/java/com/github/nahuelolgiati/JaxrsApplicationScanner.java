@@ -1,5 +1,5 @@
 
-package com.primus;
+package com.github.nahuelolgiati;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Type;
@@ -9,8 +9,8 @@ import java.util.Comparator;
 import java.util.List;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.Application;
-import com.primus.parser.SourceType;
-import com.primus.util.Predicate;
+import com.github.nahuelolgiati.parser.SourceType;
+import com.github.nahuelolgiati.util.Predicate;
 import io.github.lukehutch.fastclasspathscanner.scanner.ScanResult;
 
 public class JaxrsApplicationScanner

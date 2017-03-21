@@ -1,8 +1,8 @@
 
-package com.primus.emitter;
+package com.github.nahuelolgiati.emitter;
 
 import java.util.List;
-import com.primus.TsType;
+import com.github.nahuelolgiati.TsType;
 
 public class TsCallableModel
 {

@@ -1,7 +1,7 @@
 
-package com.primus.emitter;
+package com.github.nahuelolgiati.emitter;
 
-import com.primus.TsType;
+import com.github.nahuelolgiati.TsType;
 
 public class TsParameterModel
 {

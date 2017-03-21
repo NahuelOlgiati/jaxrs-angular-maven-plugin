@@ -1,9 +1,9 @@
 
-package com.primus.emitter;
+package com.github.nahuelolgiati.emitter;
 
 import java.util.*;
-import com.primus.Settings;
-import com.primus.util.Utils;
+import com.github.nahuelolgiati.Settings;
+import com.github.nahuelolgiati.util.Utils;
 
 public class TsObjectLiteral extends TsExpression
 {
