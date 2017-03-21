@@ -8,9 +8,33 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.primus</groupId>
 	<artifactId>jaxrs-angular-maven-plugin</artifactId>
-	<version>01.00.00-SNAPSHOT</version>
+	<version>01.00.00</version>
 	<packaging>maven-plugin</packaging>
 	<name>jaxrs-angular-maven-plugin</name>
+	<description>Generates an Angular Module with model interfaces and rest services calls.</description>
+	<url>https://github.com/NahuelOlgiati/jaxrs-angular-maven-plugin</url>
+
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Nahuel Olgiati</name>
+			<email>nahuelolgiati@hotmail.com</email>
+			<organization>Primus</organization>
+			<organizationUrl>http://www.primus.com.ar</organizationUrl>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git@github.com:NahuelOlgiati/jaxrs-angular-maven-plugin.git</connection>
+		<developerConnection>scm:git:git@github.com:NahuelOlgiati/jaxrs-angular-maven-plugin.git</developerConnection>
+		<url>https://github.com/NahuelOlgiati/jaxrs-angular-maven-plugin</url>
+	</scm>
 
 	<!-- Properties -->
 	<properties>
@@ -18,6 +42,9 @@
 		<java.version>1.8</java.version>
 		<maven.compiler.plugin.version>3.6.1</maven.compiler.plugin.version>
 		<maven.core.version>3.0.5</maven.core.version>
+		<maven.source.plugin.version>3.0.1</maven.source.plugin.version>
+		<maven.javadoc.plugin.version>2.10.4</maven.javadoc.plugin.version>
+		<maven.gpg.plugin.version>1.6</maven.gpg.plugin.version>
 		<maven.plugin.version>3.5</maven.plugin.version>
 		<maven.plugin.api.version>3.0.5</maven.plugin.api.version>
 		<maven.clean.version>2.6.1</maven.clean.version>
@@ -91,6 +118,46 @@
 						<id>mojo-descriptor</id>
 						<goals>
 							<goal>descriptor</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>${maven.source.plugin.version}</version>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>${maven.javadoc.plugin.version}</version>
+				<executions>
+					<execution>
+						<id>attach-javadocs</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-gpg-plugin</artifactId>
+				<version>${maven.gpg.plugin.version}</version>
+				<executions>
+					<execution>
+						<id>sign-artifacts</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>sign</goal>
 						</goals>
 					</execution>
 				</executions>
