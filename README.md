@@ -5,7 +5,7 @@ This maven plugin is a tool that generate models and services between a java jax
 ## Use example
 ```xml
 <plugin>
-	<groupId>com.primus</groupId>
+	<groupId>com.github.nahuelolgiati</groupId>
 	<artifactId>jaxrs-angular-maven-plugin</artifactId>
 	<version>X.Y.Z</version>
 	<executions>
